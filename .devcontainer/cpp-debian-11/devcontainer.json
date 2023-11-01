@@ -1,0 +1,15 @@
+{"image":"mcr.microsoft.com/devcontainers/cpp:debian-11",
+    // Configure tool-specific properties.
+    "customizations": {
+        // Configure properties specific to VS Code.
+        "vscode": {
+            // Add the IDs of extensions you want installed when the container is created.
+            "extensions": [
+                "ms-vscode.cpptools",
+                "ms-vscode.makefile-tools",
+                "ms-vscode.cmake-tools",
+                "maelvalais.autoconf"
+            ]
+        }
+    }
+}
